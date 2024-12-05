@@ -27,8 +27,8 @@ https://doi.org/10.1287/ijoc.2023.0245.cd
 Below is the BibTex for citing this snapshot of the repository.
 
 ```
-@misc{CacheTest,
-  author =        {Hossein Abouee-Mehrizi, Mahdi Mirjalili, and Vahid Sarhangian},
+@misc{PLTADP,
+  author =        {Abouee-Mehrizi, Hossein and Mirjalili, Mahdi and Sarhangian, Vahid},
   publisher =     {INFORMS Journal on Computing},
   title =         {Platelet Inventory Management with Approximate Dynamic Programming},
   year =          {2024},
