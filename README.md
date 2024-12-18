@@ -50,9 +50,17 @@ ordering cost of $κ = 10$ and endogenous shelf-life uncertainty (left column) w
 zero fixed ordering cost and endogenous (middle column) or deterministic shelf-life (right column)
 assuming $h = 1, \, l = 20, \, θ = 5$ and the demand and other parameters are the same across columns.
 
-[Figure 2](results/Figure%202.pdf) in the paper shows the effect of order size coefficients in the multinomial logistic model on the remaining shelf-life distribution
-for order sizes of 0, 5, 10, and 15. The larger absolute magnitude of positive (negative) coefficients
-decreases (increases) the probability of receiving units with the remaining shelf-life of one day more rapidly.
+[Figure 2 (A)](results/Figure%202%20(A).pdf) in the paper shows the effect of order size coefficients in the multinomial logistic model on the remaining shelf-life distribution
+for order sizes of 0. The larger absolute magnitude of positive (negative) coefficients decreases (increases) the probability of receiving units with the remaining shelf-life of one day more rapidly.
+
+[Figure 2 (B)](results/Figure%202%20(B).pdf) in the paper shows the effect of order size coefficients in the multinomial logistic model on the remaining shelf-life distribution
+for order sizes of 5. The larger absolute magnitude of positive (negative) coefficients decreases (increases) the probability of receiving units with the remaining shelf-life of one day more rapidly.
+
+[Figure 2 (C)](results/Figure%202%20(C).pdf) in the paper shows the effect of order size coefficients in the multinomial logistic model on the remaining shelf-life distribution
+for order sizes of 10. The larger absolute magnitude of positive (negative) coefficients decreases (increases) the probability of receiving units with the remaining shelf-life of one day more rapidly.
+
+[Figure 2 (D)](results/Figure%202%20(D).pdf) in the paper shows the effect of order size coefficients in the multinomial logistic model on the remaining shelf-life distribution
+for order sizes of 15. The larger absolute magnitude of positive (negative) coefficients decreases (increases) the probability of receiving units with the remaining shelf-life of one day more rapidly.
 
 [Figure 3](results/Figure%203.pdf) in the paper shows the performance of candidate basis functions with respect to their MAPE calculated using the optimal
 value function.
@@ -91,15 +99,49 @@ using the ADP approach is 4.9% and 4.3% for the real (red) and larger (blue) dem
 [Figure 14](results/Figure%2014.pdf) in the paper shows the sensitivity to demand for cases with $m= 5$. On average among all tested scenarios, the estimate of the expected relative improvement in the upper-bound, i.e., Myopic policy at iteration zero, after
 using the ADP approach is 6.8% and 7.6% for the real (red) and larger (blue) demand, respectively.
 
-[Figure 15](results/Figure%2015.png) in the paper compares the fitted negative binomial and Poisson distributions with historical demand data for Mondays $(τ = 0)$ during the years 2015 and 2016.
+[Figure 15](results/Figure%2015.PNG) in the paper compares the fitted negative binomial and Poisson distributions with historical demand data for Mondays $(τ = 0)$ during the years 2015 and 2016.
 
-[Figure 16](results/Figure%2016.png) in the paper compares the fitted negative binomial and Poisson distributions with historical demand data for Sundays $(τ = 6)$ during the years 2015 and 2016.
+[Figure 16](results/Figure%2016.PNG) in the paper compares the fitted negative binomial and Poisson distributions with historical demand data for Sundays $(τ = 6)$ during the years 2015 and 2016.
 
-[Figure 17](results/Figure%2017.pdf) in the paper compares the historical distribution of remaining shelf-life with the fitted multinomial distribution for two common order sizes, 6 and 8, at HGH in 2017.
+[Figure 17 (A)](results/Figure%2017%20(A).pdf) in the paper compares the historical distribution of remaining shelf-life with the fitted multinomial distribution for order sizes of 6 at HGH in 2017.
+
+[Figure 17 (B)](results/Figure%2017%20(B).pdf) in the paper compares the historical distribution of remaining shelf-life with the fitted multinomial distribution for order sizes of 8 at HGH in 2017.
 
 ## Replicating
 
-To replicate the results in each figure, run the corresponding [script](scripts/).
+To replicate the results in [Figure 1](results/Figure%201.pdf), run the notebook [Figure 1.ipynb](scripts/Figure%201.ipynb). Note that the pickle data required for this replication is available upon request and has not been uploaded to this repository.
+
+To replicate the results in [Figure 2 (A)](results/Figure%202%20(A).pdf), [Figure 2 (B)](results/Figure%202%20(B).pdf), [Figure 2 (C)](results/Figure%202%20(C).pdf), and [Figure 2 (D)](results/Figure%202%20(D).pdf), run the notebook [Figure 2.ipynb](scripts/Figure%202.ipynb).
+
+To replicate the results in [Figure 3](results/Figure%203.pdf), run the R script [Figure 3.R](scripts/Figure%203.R). The CSV data required for this replication is available in the [data](data/Figure%203/) folder.
+
+To replicate the results in [Figure 4](results/Figure%204.pdf), run the R script [Figure 4.R](scripts/Figure%204.R). The CSV data required for this replication is available in the [data](data/Figure%204/) folder.
+
+To replicate the results in [Figure 5](results/Figure%205.pdf), run the R script [Figure 5.R](scripts/Figure%205.R). The CSV data required for this replication is available in the [data](data/Figure%205/) folder.
+
+To replicate the results in [Figure 6](results/Figure%206.pdf), run the R script [Figure 6.R](scripts/Figure%206.R). The CSV data required for this replication is available in the [data](data/Figure%206/) folder.
+
+To replicate the results in [Figure 7](results/Figure%207.pdf), run the R script [Figure 7.R](scripts/Figure%207.R). The CSV data required for this replication is available in the [data](data/Figure%207/) folder.
+
+To replicate the results in [Figure 8](results/Figure%208.pdf), run the R script [Figure 8.R](scripts/Figure%208.R). The CSV data required for this replication is available in the [data](data/Figure%208/) folder.
+
+To replicate the results in [Figure 9](results/Figure%209.pdf), run the R script [Figure 9.R](scripts/Figure%209.R). The CSV data required for this replication is available in the [data](data/Figure%209/) folder.
+
+To replicate the results in [Figure 10](results/Figure%2010.pdf), run the R script [Figure 10.R](scripts/Figure%2010.R). The CSV data required for this replication is available in the [data](data/Figure%2010/) folder.
+
+To replicate the results in [Figure 11](results/Figure%2011.pdf), run the R script [Figure 11.R](scripts/Figure%2011.R). Note that the CSV data provided for this replication is simulated and is located in the [data](data/Figure%2011/) folder.
+
+To replicate the results in [Figure 12](results/Figure%2012.pdf), run the R script [Figure 12.R](scripts/Figure%2012.R). The CSV data required for this replication is available in the [data](data/Figure%2012/) folder.
+
+To replicate the results in [Figure 13](results/Figure%2013.pdf), run the R script [Figure 13.R](scripts/Figure%2013.R). The CSV data required for this replication is available in the [data](data/Figure%2013/) folder.
+
+To replicate the results in [Figure 14](results/Figure%2014.pdf), run the R script [Figure 14.R](scripts/Figure%2014.R). The CSV data required for this replication is available in the [data](data/Figure%2014/) folder.
+
+To replicate the results in [Figure 15](results/Figure%2015.PNG), run the R script [Figure 15.R](scripts/Figure%2015.R). Note that the CSV data provided for this replication is simulated and is located in the [data](data/Figure%2015/) folder.
+
+To replicate the results in [Figure 16](results/Figure%2016.PNG), run the R script [Figure 16.R](scripts/Figure%2016.R). Note that the CSV data provided for this replication is simulated and is located in the [data](data/Figure%2016/) folder.
+
+To replicate the results in [Figure 17 (A)](results/Figure%2017%20(A).pdf) and [Figure 17 (B)](results/Figure%2017%20(B).pdf), run the R script [Figure 17.R](scripts/Figure%2017.R). The CSV data required for this replication is available in the [data](data/Figure%2017/) folder.
 
 ## Ongoing Development
 
