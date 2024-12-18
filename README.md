@@ -40,68 +40,30 @@ Below is the BibTex for citing this snapshot of the repository.
 
 ## Description
 
-The goal of this software is to demonstrate the effect of cache optimization.
+The goal of this software is to provide an intelligent decision-support tool for managing perishable inventory systems, with a focus on blood platelet ordering. By leveraging a stochastic inventory control framework, the software addresses the challenges posed by uncertain shelf-life and fluctuating daily demand. It implements an Approximate Dynamic Programming (ADP) approach to approximate optimal ordering policies, significantly reducing expiration and shortage rates compared to historical benchmarks. The tool is designed for scalability and practical application, enabling healthcare providers to optimize inventory decisions efficiently, even under complex and uncertain conditions.
 
-## Building
-
-In Linux, to build the version that multiplies all elements of a vector by a
-constant (used to obtain the results in [Figure 1](results/mult-test.png) in the
-paper), stepping K elements at a time, execute the following commands.
-
-```
-make mult
-```
-
-Alternatively, to build the version that sums the elements of a vector (used
-to obtain the results [Figure 2](results/sum-test.png) in the paper), stepping K
-elements at a time, do the following.
-
-```
-make clean
-make sum
-```
-
-Be sure to make clean before building a different version of the code.
 
 ## Results
 
-Figure 1 in the paper shows the results of the multiplication test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
+[Figure 1](results/Figure 1.pdf) in the paper compares the expected cost function, value function, and optimal policy obtained under the fixed
+ordering cost of $κ = 10$ and endogenous shelf-life uncertainty (left column) with those obtained under
+zero fixed ordering cost and endogenous (middle column) or deterministic shelf-life (right column)
+assuming $h = 1, \, l = 20, \, θ = 5$ and the demand and other parameters are the same across columns.
 
-![Figure 1](results/mult-test.png)
+![Figure 1](results/Figure 1.pdf)
 
-Figure 2 in the paper shows the results of the sum test with different
-values of K using `gcc` 7.5 on an Ubuntu Linux box.
-
-![Figure 1](results/sum-test.png)
 
 ## Replicating
 
-To replicate the results in [Figure 1](results/mult-test), do either
+To replicate the results in [Figure 1](results/Figure 1.pdf), do either
 
-```
-make mult-test
-```
-or
-```
-python test.py mult
-```
-To replicate the results in [Figure 2](results/sum-test), do either
-
-```
-make sum-test
-```
-or
-```
-python test.py sum
-```
 
 ## Ongoing Development
 
 This code is being developed on an on-going basis at the author's
-[Github site](https://github.com/tkralphs/JoCTemplate).
+[Github site](https://github.com/mhdmjli).
 
 ## Support
 
-For support in using this software, submit an
-[issue](https://github.com/tkralphs/JoCTemplate/issues/new).
+For support in using this software, please contact Mahdi Mirjalili via
+[email](mhdmjli@mie.utoronto.ca).
