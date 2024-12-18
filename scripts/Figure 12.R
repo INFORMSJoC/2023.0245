@@ -60,20 +60,23 @@ for (dataset in datasets) {
   df1 <- rbind(df1, process_dataset(dataset[[1]], dataset[[2]], dataset[[3]], dataset[[4]]))
 }
 
-# Process PLT data
-load("~/PLT_ML_Prediction/PLTdata_ML_v3.rda")
-plt_data <- tdemdata[732:1096,]
-plt_data$Date <- seq(as.Date("2017-01-01"), as.Date("2017-12-31"), by = "days")
-plt_data = plt_data[c(1,54)]
-plt_data$day <- wday(plt_data$Date, label = TRUE)
+# # Process PLT data
+# load("~/PLT_ML_Prediction/PLTdata_ML_v3.rda")
+# plt_data <- tdemdata[732:1096,]
+# plt_data$Date <- seq(as.Date("2017-01-01"), as.Date("2017-12-31"), by = "days")
+# plt_data = plt_data[c(1,54)]
+# plt_data$day <- wday(plt_data$Date, label = TRUE)
+# 
+# # Calculate mean values and append PLT data for each scenario
+# plt_summary <- plt_data %>%
+#   group_by(day) %>%
+#   summarize(across(.cols = where(is.numeric),.fns = mean)) %>%
+#   mutate(mean = rowMeans(pick(where(is.numeric)))) %>% as.data.frame()
+# 
+# plt_summary <- plt_summary[c("day", "mean")]
+# write.csv(plt_summary, 'Average_Demand.csv', row.names = FALSE)
 
-# Calculate mean values and append PLT data for each scenario
-plt_summary <- plt_data %>%
-  group_by(day) %>%
-  summarize(across(.cols = where(is.numeric),.fns = mean)) %>% 
-  mutate(mean = rowMeans(pick(where(is.numeric)))) %>% as.data.frame()
-
-plt_summary <- plt_summary[c("day", "mean")]
+plt_summary = read.csv('Average_Demand.csv')
 
 fixed_costs <- c(10, 20)
 expiration_costs <- c(2, 5, 20)
