@@ -50,13 +50,56 @@ ordering cost of $κ = 10$ and endogenous shelf-life uncertainty (left column) w
 zero fixed ordering cost and endogenous (middle column) or deterministic shelf-life (right column)
 assuming $h = 1, \, l = 20, \, θ = 5$ and the demand and other parameters are the same across columns.
 
-![Figure 1](results/Figure%201.pdf)
+[Figure 2](results/Figure%202.pdf) in the paper shows the effect of order size coefficients in the multinomial logistic model on the remaining shelf-life distribution
+for order sizes of 0, 5, 10, and 15. The larger absolute magnitude of positive (negative) coefficients
+decreases (increases) the probability of receiving units with the remaining shelf-life of one day more rapidly.
 
+[Figure 3](results/Figure%203.pdf) in the paper shows the performance of candidate basis functions with respect to their MAPE calculated using the optimal
+value function.
+
+[Figure 4](results/Figure%204.pdf) in the paper shows the relative optimality gap of the ADP policy for cases with a maximum shelf-life of $m=3$ days. The black line presents the estimate of the expected
+optimality gap in each iteration and the gray area is the corresponding 95% confidence interval. On
+average, the estimate of the expected optimality gap among all cases is 1.8%, indicating an 80%
+reduction compared to 8.9% of the initial Myopic solution at iteration zero.
+
+[Figure 5](results/Figure%205.pdf) in the paper shows the performance improvement for cases with more than 5% optimality gaps in Figure 4. The interaction
+term $x_1x_2$ can further improve the results compared to the cubic terms $x^3_1$ and $x^3_2$.
+
+[Figure 6](results/Figure%206.pdf) in the paper shows the quality of the lower-bound obtained using the imperfect information relaxation approach for cases with a maximum shelf-life of $m=3$ days. On average,
+the relative gap between the lower-bound (red) and optimal (blue) is 4.9%.
+
+[Figure 7](results/Figure%207.pdf) in the paper shows the performance of the algorithm for cases with a maximum shelf-life of $m=5$ days. The black line is the best estimate of the expected cost in each iteration
+and the red line is the estimate of the expected cost with imperfect information relaxation. The shaded areas are the 95% confidence intervals. On average, the ADP policy can reduce the gap between the 
+upper-bound, i.e., Myopic policy at iteration zero, and lower-bound from 16.2% to 6.6%.
+
+[Figure 8](results/Figure%208.pdf) in the paper shows the performance of the algorithm for cases with a maximum shelf-life of $m=8$ days. The black line is the estimate of the expected relative reduction in cost
+compared to the initial Myopic policy at iteration zero. The gray area is the 95% confidence interval. On average, the estimate of the expected relative reduction in cost among cases with $κ = 10$ and $κ= 100$ is 1.4% and 18.7%, respectively.
+
+[Figure 9](results/Figure%209.pdf) in the paper shows the impact of ignoring endogenous shelf-life uncertainty when $m = 3$. On average, the estimate of the expected optimality gap among all cases is 50.9% (red), 5.7% (orange), and 5.5% (green) for the
+policies obtained under the deterministic shelf-life and exogenous distributions.
+
+[Figure 10](results/Figure%2010.pdf) in the paper shows the impact of ignoring endogenous shelf-life uncertainty when $m = 5$. On average, the estimate of the expected relative gap in cost compared with the ADP policy obtained under the true setting is 21.5%
+(red), 6.1% (orange), and 3.6% (green) for the policies obtained under the deterministic shelf-life as well as Myopic, and ADP exogenous shelf-life uncertainty, respectively.
+
+[Figure 11](results/Figure%2011.pdf) in the paper shows daily platelet demand at HGH. The red dashed line is the estimated average daily demand within the years 2015-2016. The blue line is the estimated average daily demand varying across days of the week.
+
+[Figure 12](results/Figure%2012.pdf) in the paper compares average daily demand in 2017 with average inventory levels after receiving orders placed using Endog., Exoge., and Deter. policies obtained under different cost settings in Table 4.
+
+[Figure 13](results/Figure%2013.pdf) in the paper shows the sensitivity to demand for cases with $m = 3$. On average among all tested scenarios, the estimate of the expected relative improvement in the upper-bound, i.e., Myopic policy at iteration zero, after
+using the ADP approach is 4.9% and 4.3% for the real (red) and larger (blue) demand, respectively.
+
+[Figure 14](results/Figure%2014.pdf) in the paper shows the sensitivity to demand for cases with $m= 5$. On average among all tested scenarios, the estimate of the expected relative improvement in the upper-bound, i.e., Myopic policy at iteration zero, after
+using the ADP approach is 6.8% and 7.6% for the real (red) and larger (blue) demand, respectively.
+
+[Figure 15](results/Figure%2015.png) in the paper compares the fitted negative binomial and Poisson distributions with historical demand data for Mondays $(τ = 0)$ during the years 2015 and 2016.
+
+[Figure 16](results/Figure%2016.png) in the paper compares the fitted negative binomial and Poisson distributions with historical demand data for Sundays $(τ = 6)$ during the years 2015 and 2016.
+
+[Figure 17](results/Figure%2017.pdf) in the paper compares the historical distribution of remaining shelf-life with the fitted multinomial distribution for two common order sizes, 6 and 8, at HGH in 2017.
 
 ## Replicating
 
-To replicate the results in [Figure 1](results/Figure 1.pdf), do either
-
+To replicate the results in each figure, run the corresponding [script](scripts/).
 
 ## Ongoing Development
 
