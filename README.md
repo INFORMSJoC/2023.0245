@@ -45,12 +45,12 @@ The goal of this software is to provide an intelligent decision-support tool for
 
 ## Results
 
-[Figure 1](results/Figure 1.pdf) in the paper compares the expected cost function, value function, and optimal policy obtained under the fixed
+[Figure 1](results/Figure%201.pdf) in the paper compares the expected cost function, value function, and optimal policy obtained under the fixed
 ordering cost of $κ = 10$ and endogenous shelf-life uncertainty (left column) with those obtained under
 zero fixed ordering cost and endogenous (middle column) or deterministic shelf-life (right column)
 assuming $h = 1, \, l = 20, \, θ = 5$ and the demand and other parameters are the same across columns.
 
-![Figure 1](results/Figure 1.pdf)
+![Figure 1](results/Figure%201.pdf)
 
 
 ## Replicating
@@ -65,5 +65,5 @@ This code is being developed on an on-going basis at the author's
 
 ## Support
 
-For support in using this software, please contact Mahdi Mirjalili via
-[email](mhdmjli@mie.utoronto.ca).
+For support in using this software, submit an
+[issue](https://github.com/tkralphs/JoCTemplate/issues/new).
