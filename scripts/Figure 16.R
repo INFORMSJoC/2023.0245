@@ -2,20 +2,50 @@
 library(lubridate)     # For working with date and time data
 library(fitdistrplus)  # For fitting distributions to data
 
-# Read simulated demand data from a CSV file
-simulated_data <- read.csv("Simulated_Demand.csv")
+#############################################
+########### Simulate Data ###################
+#############################################
 
-# Extract the day of the week from the IssueDT column
-simulated_data$day <- wday(simulated_data$IssueDT, label = TRUE)
+# Define size and prob parameters for each day of the week
+size <- c(3.497361, 10.985837, 7.183407, 11.064622, 5.930222, 5.473242, 2.193797)
+prob <- c(
+  size[1] / (size[1] + 5.660569),
+  size[2] / (size[2] + 6.922555),
+  size[3] / (size[3] + 6.504332),
+  size[4] / (size[4] + 6.165049),
+  size[5] / (size[5] + 5.816060),
+  size[6] / (size[6] + 3.326408),
+  size[7] / (size[7] + 3.426814)
+)
+
+# Generate the sequence of dates
+dates <- seq(as.Date("2015-01-01"), as.Date("2016-12-31"), by = "day")
+
+# Map days of the week to indices (Monday = 1, Sunday = 7)
+day_indices <- wday(dates, week_start = 1)
+
+# Generate random demand for each day
+set.seed(123) # For reproducibility
+demand <- sapply(day_indices, function(day) {
+  rnbinom(1, size = size[day], prob = prob[day])
+})
+
+# Combine dates and demands into a data frame
+result <- data.frame(Date = dates, Demand = demand)
+
+#############################################
+
+# Extract the day of the week from the Date column
+result$day <- wday(result$Date, label = TRUE)
 
 # Subset the data for Sundays only
-simulated_data_Sunday <- simulated_data$Count[which(simulated_data$day == "Fri")]
+result_Sunday <- result$Demand[which(result$day == "Sun")]
 
 # Fit a negative binomial distribution to the Sunday data
-fnbinom = fitdist(simulated_data_Sunday, "nbinom")
+fnbinom = fitdist(result_Sunday, "nbinom")
 
 # Fit a Poisson distribution to the Sunday data
-fpois = fitdist(simulated_data_Sunday, "pois")
+fpois = fitdist(result_Sunday, "pois")
 
 # Set up a 1x2 grid for two plots
 par(mfrow = c(1, 2))
