@@ -109,7 +109,7 @@ using the ADP approach is 6.8% and 7.6% for the real (red) and larger (blue) dem
 
 ## Replicating
 
-To replicate the results in [Figure 1](results/Figure%201.pdf), run the notebook [Figure 1.ipynb](scripts/Figure%201.ipynb). Note that the pickle data required for this replication is available upon request and has not been uploaded to this repository.
+To replicate the results in [Figure 1](results/Figure%201.pdf), run the notebook [Figure 1.ipynb](scripts/Figure%201.ipynb). The pickle data required for this replication is available upon request and has not been uploaded to this repository.
 
 To replicate the results in [Figure 2 (A)](results/Figure%202%20(A).pdf), [Figure 2 (B)](results/Figure%202%20(B).pdf), [Figure 2 (C)](results/Figure%202%20(C).pdf), and [Figure 2 (D)](results/Figure%202%20(D).pdf), run the notebook [Figure 2.ipynb](scripts/Figure%202.ipynb).
 
@@ -129,7 +129,7 @@ To replicate the results in [Figure 9](results/Figure%209.pdf), run the R script
 
 To replicate the results in [Figure 10](results/Figure%2010.pdf), run the R script [Figure 10.R](scripts/Figure%2010.R). The CSV data required for this replication is available in the [data](data/Figure%2010/) folder.
 
-To replicate the results in [Figure 11](results/Figure%2011.pdf), run the R script [Figure 11.R](scripts/Figure%2011.R). Note that the CSV data provided for this replication is simulated and is located in the [data](data/Figure%2011/) folder.
+To replicate the results in [Figure 11](results/Figure%2011.pdf), run the R script [Figure 11.R](scripts/Figure%2011.R). Due to data privacy and security reasons, the data has been simulated within the code using the fitted negative binomial distributions.
 
 To replicate the results in [Figure 12](results/Figure%2012.pdf), run the R script [Figure 12.R](scripts/Figure%2012.R). The CSV data required for this replication is available in the [data](data/Figure%2012/) folder.
 
@@ -137,9 +137,9 @@ To replicate the results in [Figure 13](results/Figure%2013.pdf), run the R scri
 
 To replicate the results in [Figure 14](results/Figure%2014.pdf), run the R script [Figure 14.R](scripts/Figure%2014.R). The CSV data required for this replication is available in the [data](data/Figure%2014/) folder.
 
-To replicate the results in [Figure 15](results/Figure%2015.PNG), run the R script [Figure 15.R](scripts/Figure%2015.R). Note that the CSV data provided for this replication is simulated and is located in the [data](data/Figure%2015/) folder.
+To replicate the results in [Figure 15](results/Figure%2015.PNG), run the R script [Figure 15.R](scripts/Figure%2015.R). Due to data privacy and security reasons, the data has been simulated within the code using the fitted negative binomial distributions. 
 
-To replicate the results in [Figure 16](results/Figure%2016.PNG), run the R script [Figure 16.R](scripts/Figure%2016.R). Note that the CSV data provided for this replication is simulated and is located in the [data](data/Figure%2016/) folder.
+To replicate the results in [Figure 16](results/Figure%2016.PNG), run the R script [Figure 16.R](scripts/Figure%2016.R). Due to data privacy and security reasons, the data has been simulated within the code using the fitted negative binomial distributions.
 
 To replicate the results in [Figure 17 (A)](results/Figure%2017%20(A).pdf) and [Figure 17 (B)](results/Figure%2017%20(B).pdf), run the R script [Figure 17.R](scripts/Figure%2017.R). The CSV data required for this replication is available in the [data](data/Figure%2017/) folder.
 
