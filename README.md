@@ -143,6 +143,8 @@ To replicate the results in [Figure 16](results/Figure%2016.PNG), run the R scri
 
 To replicate the results in [Figure 17 (A)](results/Figure%2017%20(A).pdf) and [Figure 17 (B)](results/Figure%2017%20(B).pdf), run the R script [Figure 17.R](scripts/Figure%2017.R). The CSV data required for this replication is available in the [data](data/Figure%2017/) folder.
 
+To replicate the results in Table 4 of the paper, run the notebook [Table 4.ipynb](scripts/Table%204.ipynb). The required pickle data for this replication is available upon request and has not been uploaded to this repository. Additionally, due to data privacy and security concerns, the out-of-sample demand data has been simulated within the code using fitted negative binomial distributions.
+
 ## Ongoing Development
 
 This code is being developed on an on-going basis at the author's
