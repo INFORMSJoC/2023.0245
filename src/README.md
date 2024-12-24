@@ -10,7 +10,7 @@ The evaluation involves different approaches depending on the value of the maxim
   For a maximum shelf-life of three days, we evaluate the performance of both ADP and the lower-bound against the optimal policy to assess their accuracy.
 
 - ### $m = 5$:  
-  For a maximum shelf-life of five days, the optimal policy becomes computationally infeasible to calculate. Instead, we compare the ADP performance with the lower-bound.
+  For a maximum shelf-life of five days, calculating the optimal policy becomes computationally infeasible. Instead, we compare the ADP performance to the lower-bound and other policies, including the exact policy under a deterministic maximum shelf-life of five days in the case study.
 
 - ### $m = 8$:   
   For a maximum shelf-life of eight days, even the lower-bound becomes computationally intractable. Here, the ADP performance is compared to the initial Myopic policy.
