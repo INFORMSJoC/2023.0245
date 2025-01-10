@@ -48,7 +48,7 @@ This repository provides the code and data requried to reproduce the results of 
 [Figure 1](results/Figure%201.pdf) in the paper compares the expected cost function, value function, and optimal policy obtained under the fixed
 ordering cost of $κ = 10$ and endogenous shelf-life uncertainty (left column) with those obtained under
 zero fixed ordering cost and endogenous (middle column) or deterministic shelf-life (right column)
-assuming $h = 1, \, l = 20, \, θ = 5$ and the demand and other parameters are the same across columns.
+assuming $h = 1 \, l = 20 \, θ = 5$ and the demand and other parameters are the same across columns.
 
 [Figure 2 (A)](results/Figure%202%20(A).pdf) in the paper shows the effect of order size coefficients in the multinomial logistic model on the remaining shelf-life distribution
 for order sizes of 0. The larger absolute magnitude of positive (negative) coefficients decreases (increases) the probability of receiving units with the remaining shelf-life of one day more rapidly.
@@ -143,7 +143,7 @@ To replicate the results in [Figure EC.5](results/Figure%20EC.5.PNG), run the R 
 
 To replicate the results in [Figure EC.6 (A)](results/Figure%20EC.6%20(A).pdf) and [Figure EC.6 (B)](results/Figure%20EC.6%20(B).pdf), run the R script [Figure EC.6.R](scripts/Figure%20EC.6.R). The CSV data required for this replication is available in the [data](data/Figure%20EC.6/) folder.
 
-To replicate the results in Table 4 of the paper, run the notebook [Table 4.ipynb](scripts/Table%204.ipynb). The required pickle data for this replication is available upon request and has not been uploaded to this repository. Additionally, due to data privacy and security concerns, the out-of-sample demand data has been simulated within the code using fitted negative binomial distributions.
+To replicate the results in Table 4 of the paper, run the notebook [Table 4.ipynb](scripts/Table%204.ipynb). The required pickle data for this replication is available upon request and has not been uploaded to this repository. Due to data privacy requirements, we are unable to provide the actual hospital demand data used in the case study. As such, the code uses simulated demand data from the fitted negative binomial distributions.
 
 ## Ongoing Development
 
