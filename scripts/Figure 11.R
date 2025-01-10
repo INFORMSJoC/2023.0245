@@ -116,4 +116,4 @@ ggplot(df1, aes(x = day, y = mean, color = policy, group = policy)) +
   guides(color = guide_legend(nrow = 1, byrow = TRUE))
 
 # Save the plot as a PDF
-ggsave("Figure 12.pdf", width = 20, height = 14, units = "in")
+ggsave("Figure 11.pdf", width = 20, height = 14, units = "in")
