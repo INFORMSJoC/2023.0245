@@ -111,4 +111,4 @@ ggplot(data = df3[which(df3$Iteration < 15), ]) +
   scale_color_manual(values = colors)
 
 # Save the plot as a PDF
-ggsave("Figure 13.pdf", width = 22, height = 19, units = "in")
+ggsave("Figure EC.2.pdf", width = 22, height = 19, units = "in")
