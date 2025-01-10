@@ -40,7 +40,7 @@ Below is the BibTex for citing this snapshot of the repository.
 
 ## Description
 
-The goal of this software is to provide an intelligent decision-support tool for managing perishable inventory systems, with a focus on blood platelet ordering. By leveraging a stochastic inventory control framework, the software addresses the challenges posed by uncertain shelf-life and fluctuating daily demand. It implements an Approximate Dynamic Programming (ADP) approach to approximate optimal ordering policies, significantly reducing expiration and shortage rates compared to historical benchmarks. The tool is designed for scalability and practical application, enabling healthcare providers to optimize inventory decisions efficiently, even under complex and uncertain conditions.
+This repository provides the code and data requried to reproduce the results of the experiments and case study reported in [Platelet Inventory Management with Approximate Dynamic Programming](https://doi.org/10.1287/ijoc.2023.0245). 
 
 
 ## Results
