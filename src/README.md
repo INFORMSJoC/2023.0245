@@ -1,6 +1,6 @@
 # ADP Performance Evaluation
 
-This folder contains the source code for evaluating the performance of ADP for different values of maximum shelf-life $m$.
+This folder contains the source code for evaluating the performance of ADP for different values of maximum shelf-life $m$. We use parallel processing to run multiple parameter combinations simultaneously on the [Niagara cluster](https://docs.alliancecan.ca/wiki/Niagara).
 
 ## Overview
 
