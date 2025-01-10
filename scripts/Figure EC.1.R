@@ -69,4 +69,4 @@ ggplot(df[df$Iteration < 15, ], aes(x = Iteration, y = EGap)) +
   labs(y = "Relative reduction in cost (%)", x = "Iteration")
 
 # Save the plot as a PDF
-ggsave("Figure 8.pdf", width = 20, height = 18, units = "in")
+ggsave("Figure EC.1.pdf", width = 20, height = 18, units = "in")
