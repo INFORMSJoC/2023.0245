@@ -69,4 +69,4 @@ p <- ggplot(data = df) +
 
 # Add facet tags and save the plot
 tagged_plot <- tag_facet2(p)
-ggsave("Figure 9.pdf", plot = tagged_plot, width = 30, height = 15, units = "in")
+ggsave("Figure 8.pdf", plot = tagged_plot, width = 30, height = 15, units = "in")
