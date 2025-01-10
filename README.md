@@ -80,32 +80,32 @@ the relative gap between the lower-bound (red) and optimal (blue) is 4.9%.
 and the red line is the estimate of the expected cost with imperfect information relaxation. The shaded areas are the 95% confidence intervals. On average, the ADP policy can reduce the gap between the 
 upper-bound, i.e., Myopic policy at iteration zero, and lower-bound from 16.2% to 6.6%.
 
-[Figure 8](results/Figure%208.pdf) in the paper shows the performance of the algorithm for cases with a maximum shelf-life of $m=8$ days. The black line is the estimate of the expected relative reduction in cost
-compared to the initial Myopic policy at iteration zero. The gray area is the 95% confidence interval. On average, the estimate of the expected relative reduction in cost among cases with $κ = 10$ and $κ= 100$ is 1.4% and 18.7%, respectively.
-
-[Figure 9](results/Figure%209.pdf) in the paper shows the impact of ignoring endogenous shelf-life uncertainty when $m = 3$. On average, the estimate of the expected optimality gap among all cases is 50.9% (red), 5.7% (orange), and 5.5% (green) for the
+[Figure 8](results/Figure%208.pdf) in the paper shows the impact of ignoring endogenous shelf-life uncertainty when $m = 3$. On average, the estimate of the expected optimality gap among all cases is 50.9% (red), 5.7% (orange), and 5.5% (green) for the
 policies obtained under the deterministic shelf-life and exogenous distributions.
 
-[Figure 10](results/Figure%2010.pdf) in the paper shows the impact of ignoring endogenous shelf-life uncertainty when $m = 5$. On average, the estimate of the expected relative gap in cost compared with the ADP policy obtained under the true setting is 21.5%
+[Figure 9](results/Figure%209.pdf) in the paper shows the impact of ignoring endogenous shelf-life uncertainty when $m = 5$. On average, the estimate of the expected relative gap in cost compared with the ADP policy obtained under the true setting is 21.5%
 (red), 6.1% (orange), and 3.6% (green) for the policies obtained under the deterministic shelf-life as well as Myopic, and ADP exogenous shelf-life uncertainty, respectively.
 
-[Figure 11](results/Figure%2011.pdf) in the paper shows daily platelet demand at HGH. The red dashed line is the estimated average daily demand within the years 2015-2016. The blue line is the estimated average daily demand varying across days of the week.
+[Figure 10](results/Figure%2010.pdf) in the paper shows daily platelet demand at HGH. The red dashed line is the estimated average daily demand within the years 2015-2016. The blue line is the estimated average daily demand varying across days of the week.
 
-[Figure 12](results/Figure%2012.pdf) in the paper compares average daily demand in 2017 with average inventory levels after receiving orders placed using Endog., Exoge., and Deter. policies obtained under different cost settings in Table 4.
+[Figure 11](results/Figure%2011.pdf) in the paper compares average daily demand in 2017 with average inventory levels after receiving orders placed using Endog., Exoge., and Deter. policies obtained under different cost settings in Table 4.
 
-[Figure 13](results/Figure%2013.pdf) in the paper shows the sensitivity to demand for cases with $m = 3$. On average among all tested scenarios, the estimate of the expected relative improvement in the upper-bound, i.e., Myopic policy at iteration zero, after
+[Figure EC.1](results/Figure%20EC.1.pdf) in the paper shows the performance of the algorithm for cases with a maximum shelf-life of $m=8$ days. The black line is the estimate of the expected relative reduction in cost
+compared to the initial Myopic policy at iteration zero. The gray area is the 95% confidence interval. On average, the estimate of the expected relative reduction in cost among cases with $κ = 10$ and $κ= 100$ is 1.4% and 18.7%, respectively.
+
+[Figure EC.2](results/Figure%20EC.2.pdf) in the paper shows the sensitivity to demand for cases with $m = 3$. On average among all tested scenarios, the estimate of the expected relative improvement in the upper-bound, i.e., Myopic policy at iteration zero, after
 using the ADP approach is 4.9% and 4.3% for the real (red) and larger (blue) demand, respectively.
 
-[Figure 14](results/Figure%2014.pdf) in the paper shows the sensitivity to demand for cases with $m= 5$. On average among all tested scenarios, the estimate of the expected relative improvement in the upper-bound, i.e., Myopic policy at iteration zero, after
+[Figure EC.3](results/Figure%20EC.3.pdf) in the paper shows the sensitivity to demand for cases with $m= 5$. On average among all tested scenarios, the estimate of the expected relative improvement in the upper-bound, i.e., Myopic policy at iteration zero, after
 using the ADP approach is 6.8% and 7.6% for the real (red) and larger (blue) demand, respectively.
 
-[Figure 15](results/Figure%2015.PNG) in the paper compares the fitted negative binomial and Poisson distributions with historical demand data for Mondays $(τ = 0)$ during the years 2015 and 2016.
+[Figure EC.4](results/Figure%20EC.4.PNG) in the paper compares the fitted negative binomial and Poisson distributions with historical demand data for Mondays $(τ = 0)$ during the years 2015 and 2016.
 
-[Figure 16](results/Figure%2016.PNG) in the paper compares the fitted negative binomial and Poisson distributions with historical demand data for Sundays $(τ = 6)$ during the years 2015 and 2016.
+[Figure EC.5](results/Figure%20EC.5.PNG) in the paper compares the fitted negative binomial and Poisson distributions with historical demand data for Sundays $(τ = 6)$ during the years 2015 and 2016.
 
-[Figure 17 (A)](results/Figure%2017%20(A).pdf) in the paper compares the historical distribution of remaining shelf-life with the fitted multinomial distribution for order sizes of 6 at HGH in 2017.
+[Figure EC.6 (A)](results/Figure%20EC.6%20(A).pdf) in the paper compares the historical distribution of remaining shelf-life with the fitted multinomial distribution for order sizes of 6 at HGH in 2017.
 
-[Figure 17 (B)](results/Figure%2017%20(B).pdf) in the paper compares the historical distribution of remaining shelf-life with the fitted multinomial distribution for order sizes of 8 at HGH in 2017.
+[Figure EC.6 (B)](results/Figure%20EC.6%20(B).pdf) in the paper compares the historical distribution of remaining shelf-life with the fitted multinomial distribution for order sizes of 8 at HGH in 2017.
 
 ## Replicating
 
@@ -127,21 +127,21 @@ To replicate the results in [Figure 8](results/Figure%208.pdf), run the R script
 
 To replicate the results in [Figure 9](results/Figure%209.pdf), run the R script [Figure 9.R](scripts/Figure%209.R). The CSV data required for this replication is available in the [data](data/Figure%209/) folder.
 
-To replicate the results in [Figure 10](results/Figure%2010.pdf), run the R script [Figure 10.R](scripts/Figure%2010.R). The CSV data required for this replication is available in the [data](data/Figure%2010/) folder.
+To replicate the results in [Figure 10](results/Figure%2010.pdf), run the R script [Figure 10.R](scripts/Figure%2010.R). Due to data privacy and security reasons, the data has been simulated within the code using the fitted negative binomial distributions.
 
-To replicate the results in [Figure 11](results/Figure%2011.pdf), run the R script [Figure 11.R](scripts/Figure%2011.R). Due to data privacy and security reasons, the data has been simulated within the code using the fitted negative binomial distributions.
+To replicate the results in [Figure 11](results/Figure%2011.pdf), run the R script [Figure 11.R](scripts/Figure%2011.R). The CSV data required for this replication is available in the [data](data/Figure%2011/) folder.
 
-To replicate the results in [Figure 12](results/Figure%2012.pdf), run the R script [Figure 12.R](scripts/Figure%2012.R). The CSV data required for this replication is available in the [data](data/Figure%2012/) folder.
+To replicate the results in [Figure EC.1](results/Figure%20EC.1.pdf), run the R script [Figure EC.1.R](scripts/Figure%20EC.1.R). The CSV data required for this replication is available in the [data](data/Figure%20EC.1/) folder.
 
-To replicate the results in [Figure 13](results/Figure%2013.pdf), run the R script [Figure 13.R](scripts/Figure%2013.R). The CSV data required for this replication is available in the [data](data/Figure%2013/) folder.
+To replicate the results in [Figure EC.2](results/Figure%20EC.2.pdf), run the R script [Figure EC.2.R](scripts/Figure%20EC.2.R). The CSV data required for this replication is available in the [data](data/Figure%20EC.2/) folder.
 
-To replicate the results in [Figure 14](results/Figure%2014.pdf), run the R script [Figure 14.R](scripts/Figure%2014.R). The CSV data required for this replication is available in the [data](data/Figure%2014/) folder.
+To replicate the results in [Figure EC.3](results/Figure%20EC.3.pdf), run the R script [Figure EC.3.R](scripts/Figure%20EC.3.R). The CSV data required for this replication is available in the [data](data/Figure%20EC.3/) folder.
 
-To replicate the results in [Figure 15](results/Figure%2015.PNG), run the R script [Figure 15.R](scripts/Figure%2015.R). Due to data privacy and security reasons, the data has been simulated within the code using the fitted negative binomial distributions. 
+To replicate the results in [Figure EC.4](results/Figure%20EC.4.PNG), run the R script [Figure EC.4.R](scripts/Figure%20EC.4.R). Due to data privacy and security reasons, the data has been simulated within the code using the fitted negative binomial distributions. 
 
-To replicate the results in [Figure 16](results/Figure%2016.PNG), run the R script [Figure 16.R](scripts/Figure%2016.R). Due to data privacy and security reasons, the data has been simulated within the code using the fitted negative binomial distributions.
+To replicate the results in [Figure EC.5](results/Figure%20EC.5.PNG), run the R script [Figure EC.5.R](scripts/Figure%20EC.5.R). Due to data privacy and security reasons, the data has been simulated within the code using the fitted negative binomial distributions.
 
-To replicate the results in [Figure 17 (A)](results/Figure%2017%20(A).pdf) and [Figure 17 (B)](results/Figure%2017%20(B).pdf), run the R script [Figure 17.R](scripts/Figure%2017.R). The CSV data required for this replication is available in the [data](data/Figure%2017/) folder.
+To replicate the results in [Figure EC.6 (A)](results/Figure%20EC.6%20(A).pdf) and [Figure EC.6 (B)](results/Figure%20EC.6%20(B).pdf), run the R script [Figure EC.6.R](scripts/Figure%20EC.6.R). The CSV data required for this replication is available in the [data](data/Figure%20EC.6/) folder.
 
 To replicate the results in Table 4 of the paper, run the notebook [Table 4.ipynb](scripts/Table%204.ipynb). The required pickle data for this replication is available upon request and has not been uploaded to this repository. Additionally, due to data privacy and security concerns, the out-of-sample demand data has been simulated within the code using fitted negative binomial distributions.
 
