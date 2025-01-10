@@ -109,7 +109,7 @@ using the ADP approach is 6.8% and 7.6% for the real (red) and larger (blue) dem
 
 ## Replicating
 
-To replicate the results in [Figure 1](results/Figure%201.pdf), run the notebook [Figure 1.ipynb](scripts/Figure%201.ipynb). The pickle data required for this replication is available upon request and has not been uploaded to this repository.
+To replicate the results in [Figure 1](results/Figure%201.pdf), run the notebook [Figure 1.ipynb](scripts/Figure%201.ipynb). The pickle data required for this replication is generated using the value iteration code available in the [source code](src/m%20=%203/) folder. 
 
 To replicate the results in [Figure 2 (A)](results/Figure%202%20(A).pdf), [Figure 2 (B)](results/Figure%202%20(B).pdf), [Figure 2 (C)](results/Figure%202%20(C).pdf), and [Figure 2 (D)](results/Figure%202%20(D).pdf), run the notebook [Figure 2.ipynb](scripts/Figure%202.ipynb).
 
@@ -127,7 +127,7 @@ To replicate the results in [Figure 8](results/Figure%208.pdf), run the R script
 
 To replicate the results in [Figure 9](results/Figure%209.pdf), run the R script [Figure 9.R](scripts/Figure%209.R). The CSV data required for this replication is available in the [data](data/Figure%209/) folder.
 
-To replicate the results in [Figure 10](results/Figure%2010.pdf), run the R script [Figure 10.R](scripts/Figure%2010.R). Due to data privacy and security reasons, the data has been simulated within the code using the fitted negative binomial distributions.
+To replicate the results in [Figure 10](results/Figure%2010.pdf), run the R script [Figure 10.R](scripts/Figure%2010.R). To comply with data privacy requirements, the demand data is simulated within the code using the fitted negative binomial distributions.
 
 To replicate the results in [Figure 11](results/Figure%2011.pdf), run the R script [Figure 11.R](scripts/Figure%2011.R). The CSV data required for this replication is available in the [data](data/Figure%2011/) folder.
 
@@ -137,10 +137,10 @@ To replicate the results in [Figure EC.2](results/Figure%20EC.2.pdf), run the R 
 
 To replicate the results in [Figure EC.3](results/Figure%20EC.3.pdf), run the R script [Figure EC.3.R](scripts/Figure%20EC.3.R). The CSV data required for this replication is available in the [data](data/Figure%20EC.3/) folder.
 
-To replicate the results in [Figure EC.4](results/Figure%20EC.4.PNG), run the R script [Figure EC.4.R](scripts/Figure%20EC.4.R). Due to data privacy and security reasons, the data has been simulated within the code using the fitted negative binomial distributions. 
+To replicate the results in [Figure EC.4](results/Figure%20EC.4.PNG), run the R script [Figure EC.4.R](scripts/Figure%20EC.4.R). To comply with data privacy requirements, the demand data is simulated within the code using the fitted negative binomial distributions. 
 
-To replicate the results in [Figure EC.5](results/Figure%20EC.5.PNG), run the R script [Figure EC.5.R](scripts/Figure%20EC.5.R). Due to data privacy and security reasons, the data has been simulated within the code using the fitted negative binomial distributions.
+To replicate the results in [Figure EC.5](results/Figure%20EC.5.PNG), run the R script [Figure EC.5.R](scripts/Figure%20EC.5.R). To comply with data privacy requirements, the demand data is simulated within the code using the fitted negative binomial distributions. 
 
 To replicate the results in [Figure EC.6 (A)](results/Figure%20EC.6%20(A).pdf) and [Figure EC.6 (B)](results/Figure%20EC.6%20(B).pdf), run the R script [Figure EC.6.R](scripts/Figure%20EC.6.R). The CSV data required for this replication is available in the [data](data/Figure%20EC.6/) folder.
 
-To replicate the results in Table 4 of the paper, run the notebook [Table 4.ipynb](scripts/Table%204.ipynb). The required pickle data for this replication is available upon request and has not been uploaded to this repository. Due to data privacy requirements, we are unable to provide the actual hospital demand data used in the case study. As such, the code uses simulated demand data from the fitted negative binomial distributions.
+To replicate the results in Table 4 of the paper, run the notebook [Table 4.ipynb](scripts/Table%204.ipynb). The required pickle data for this replication is generated using the source codes available in the [source code](src/%20m%20=%205/) folder. To comply with data privacy requirements, we cannot share the actual hospital demand data used in the case study. Instead, the provided code utilizes simulated demand data based on fitted negative binomial distributions.
