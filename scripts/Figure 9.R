@@ -271,4 +271,4 @@ x.grob <- textGrob('(Fixed ordering cost, Unit holding cost, Unit shortage cost,
 tagged_plot <- grid.arrange(arrangeGrob(plot2, left = y.grob, bottom = x.grob))
 
 # Save the plot as a PDF
-ggsave("Figure 10.pdf", plot = tagged_plot, width = 26, height = 16, units = "in")
+ggsave("Figure 9.pdf", plot = tagged_plot, width = 26, height = 16, units = "in")
