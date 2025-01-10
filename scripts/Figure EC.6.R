@@ -91,7 +91,7 @@ ggplot(data = df1, aes(x, y, group = g, fill = g)) +
   scale_fill_manual(values = my_colors)  # Setting manual colors
 
 # Save the plot as a PDF
-ggsave("Figure 17 (A).pdf", width = 12, height = 8, units = "in")
+ggsave("Figure EC.6 (A).pdf", width = 12, height = 8, units = "in")
 
 
 #----------------------------------------
@@ -115,4 +115,4 @@ ggplot(data = df1, aes(x, y, group = g, fill = g)) +
   scale_fill_manual(values = my_colors)  # Setting manual colors
 
 # Save the plot as a PDF
-ggsave("Figure 17 (B).pdf", width = 12, height = 8, units = "in")
+ggsave("Figure EC.6 (B).pdf", width = 12, height = 8, units = "in")
