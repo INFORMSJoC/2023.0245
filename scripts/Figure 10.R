@@ -83,4 +83,4 @@ result %>%
   scale_color_manual(values = alpha(color, alpha_color))
 
 # Save the plot as a PDF
-ggsave("Figure 11 - Simulated.pdf", width = 14, height = 7.5, units = "in")
+ggsave("Figure 10 - Simulated.pdf", width = 14, height = 7.5, units = "in")
