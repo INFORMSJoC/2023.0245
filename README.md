@@ -144,13 +144,3 @@ To replicate the results in [Figure EC.5](results/Figure%20EC.5.PNG), run the R 
 To replicate the results in [Figure EC.6 (A)](results/Figure%20EC.6%20(A).pdf) and [Figure EC.6 (B)](results/Figure%20EC.6%20(B).pdf), run the R script [Figure EC.6.R](scripts/Figure%20EC.6.R). The CSV data required for this replication is available in the [data](data/Figure%20EC.6/) folder.
 
 To replicate the results in Table 4 of the paper, run the notebook [Table 4.ipynb](scripts/Table%204.ipynb). The required pickle data for this replication is available upon request and has not been uploaded to this repository. Due to data privacy requirements, we are unable to provide the actual hospital demand data used in the case study. As such, the code uses simulated demand data from the fitted negative binomial distributions.
-
-## Ongoing Development
-
-This code is being developed on an on-going basis at the author's
-[Github site](https://github.com/mhdmjli).
-
-## Support
-
-For support in using this software, submit an
-[issue](https://github.com/tkralphs/JoCTemplate/issues/new).
