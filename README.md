@@ -12,9 +12,6 @@ The snapshot is based on
 [this SHA](https://github.com/tkralphs/JoCTemplate/commit/f7f30c63adbcb0811e5a133e1def696b74f3ba15) 
 in the development repository. 
 
-**Important: This code is being developed on an on-going basis at 
-https://github.com/tkralphs/JoCTemplate. Please go there if you would like to
-get a more recent version or would like support**
 
 ## Cite
 
