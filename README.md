@@ -8,9 +8,7 @@ Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](
 The software and data in this repository are a snapshot of the software and data
 that were used in the research reported on in the paper 
 [Platelet Inventory Management with Approximate Dynamic Programming](https://doi.org/10.1287/ijoc.2023.0245) by Hossein Abouee-Mehrizi, Mahdi Mirjalili, and Vahid Sarhangian. 
-The snapshot is based on 
-[this SHA](https://github.com/tkralphs/JoCTemplate/commit/f7f30c63adbcb0811e5a133e1def696b74f3ba15) 
-in the development repository. 
+
 
 
 ## Cite
